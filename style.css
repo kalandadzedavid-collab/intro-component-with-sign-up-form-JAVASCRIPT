@@ -18,6 +18,10 @@ body {
   display: none;
 }
 
+.redborder {
+  border: 2px solid #FF7979 !important;
+}
+
 main {
   height: 100vh;
   padding: 77px 165px;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 
     <title>sign up form</title>
   </head>
@@ -32,34 +32,36 @@
 
         <form>
           <div class="input">
-            <input id="firstname" type="text" class="boxes" />
             <img class="hidden errorimg" src="./images/icon-error.svg" alt="" />
+            <input id="firstname" type="text" class="boxes" />
             <p class="hidden errortext">First Name cannot be empty</p>
           </div>
 
           <div class="input">
-            <input id="lastname" type="text" class="boxes" />
             <img class="hidden errorimg" src="./images/icon-error.svg" alt="" />
+            <input id="lastname" type="text" class="boxes" />
             <p class="hidden errortext">Last Name cannot be empty</p>
           </div>
 
-            <div class="input">
-            <input id="email" type="email" class="boxes" />
+          <div class="input">
             <img class="hidden errorimg" src="./images/icon-error.svg" alt="" />
+            <input id="email" type="email" class="boxes" />
             <p class="hidden errortext">Looks like this is not an email</p>
           </div>
 
           <div class="input">
-            <input id="password" type="password" class="boxes" />
             <img class="hidden errorimg" src="./images/icon-error.svg" alt="" />
+            <input id="password" type="password" class="boxes" />
             <p class="hidden errortext">Password cannot be empty</p>
           </div>
 
           <div class="lastdiv">
-            <input class="submit" type="submit" value="CLAIM YOUR FREE TRIAL">
-            <p>By clicking the button, you are agreeing to our <span> Terms and Services </span></p>
+            <input class="submit" type="submit" value="CLAIM YOUR FREE TRIAL" />
+            <p>
+              By clicking the button, you are agreeing to our
+              <span> Terms and Services </span>
+            </p>
           </div>
-
         </form>
       </div>
     </main>
