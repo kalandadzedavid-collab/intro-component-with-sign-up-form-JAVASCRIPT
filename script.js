@@ -54,6 +54,7 @@ function formFunc() {
     thirdImgError.classList.remove("hidden");
     thirdTextError.classList.remove("hidden");
     email.classList.add("redborder");
+    value = false;
   } else {
     thirdImgError.classList.add("hidden");
     thirdTextError.classList.add("hidden");
@@ -69,6 +70,7 @@ function formFunc() {
     fourthImgError.classList.remove("hidden");
     fourthTextError.classList.remove("hidden");
     password.classList.add("redborder");
+    value = false;
   } else {
     fourthImgError.classList.add("hidden");
     fourthTextError.classList.add("hidden");
